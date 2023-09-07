@@ -3,4 +3,4 @@ Dish4Good adalah aplikasi yang dapat menghubungkan dua pihak, yaitu donatur dan 
 
 plat AB
 Ketua Kelompok : 
-Anggota 1 : Rafly Zaki Ramadhan-21/483121/TK/53403
+Anggota 1 :
