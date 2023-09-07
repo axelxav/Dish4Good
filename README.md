@@ -3,4 +3,4 @@ Dish4Good adalah aplikasi yang dapat menghubungkan dua pihak, yaitu donatur dan 
 
 plat AB
 Ketua Kelompok : Axel Xaverius Tamtama-21/479414/TK/52892
-Anggota 1 : 
+Anggota 1 : Rafly Zaki Ramadhan-21/483121/TK/53403
