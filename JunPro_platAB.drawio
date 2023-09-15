@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T04:19:07.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JD2amEbPPRMEcPKTolCp" version="21.7.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-15T04:21:25.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="L5tNxxJQrFenwBXlLLWX" version="21.7.5" type="github" pages="4">
   <diagram id="bWpQsI8a0Fwr5JxNZwEe" name="Use Case Diagram">
     <mxGraphModel dx="1500" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -596,7 +596,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x1Xbog2Y1B5z71v64Jpg" name="Class Diagram">
-    <mxGraphModel dx="1909" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -701,6 +701,9 @@
         </mxCell>
         <mxCell id="mNn1YcyEZn9AuF9wh_wp-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="mNn1YcyEZn9AuF9wh_wp-6" target="kxTMzXqGE3jfCX7IE3gC-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIrZupVaGX0pAwlDZWDx-1" value="&lt;h1&gt;Class Diagram &quot;Dish4Good&quot;&lt;/h1&gt;&lt;p&gt;Axel Xaverius Tamtama - 21/479414/TK/52892&amp;nbsp;&lt;/p&gt;&lt;p&gt;Rafly Zaki Ramadhan - 21/483121/TK/53403&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="90" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
