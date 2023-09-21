@@ -15,14 +15,40 @@ using System.Windows.Shapes;
 
 namespace Dish4Good
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            myComboBox.Items.Add("Pilihan 1");
+            myComboBox.Items.Add("Pilihan 2");
+            myComboBox.Items.Add("Pilihan 3");
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            string username = UsernameTextBox.Text;
+            string password = PasswordBox.Password;
+
+            // Anda dapat menambahkan logika autentikasi di sini.
+            // Misalnya, memeriksa username dan password dengan data yang valid.
+
+            if (username == "user" && password == "password")
+            {
+                MessageBox.Show("Login berhasil!");
+                // Tambahkan logika untuk berpindah ke halaman utama atau menu aplikasi di sini.
+            }
+            else
+            {
+                MessageBox.Show("Login gagal. Periksa username dan password Anda.");
+            }
+        }
+
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+
     }
 }
