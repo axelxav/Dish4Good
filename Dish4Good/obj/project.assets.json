@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\KULIAH\\Materi_Tugas\\sem 5\\JunPro\\Dish4Good\\Dish4Good\\Dish4Good.csproj",
+      "projectUniqueName": "F:\\Dish4Good\\Dish4Good\\Dish4Good.csproj",
       "projectName": "Dish4Good",
-      "projectPath": "F:\\KULIAH\\Materi_Tugas\\sem 5\\JunPro\\Dish4Good\\Dish4Good\\Dish4Good.csproj",
+      "projectPath": "F:\\Dish4Good\\Dish4Good\\Dish4Good.csproj",
       "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "F:\\KULIAH\\Materi_Tugas\\sem 5\\JunPro\\Dish4Good\\Dish4Good\\obj\\",
+      "outputPath": "F:\\Dish4Good\\Dish4Good\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
