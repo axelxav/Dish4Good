@@ -1,0 +1,119 @@
+﻿<Window x:Class="Dish4Good.donaturDash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dish4Good"
+        mc:Ignorable="d"
+        Title="donaturDash" Height="770" Width="1440" Background="#FF292929">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="610"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.4*"/>
+            <ColumnDefinition Width="0.6*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0">
+            <Rectangle RenderTransformOrigin="0.5,0.5" Fill="#FFCCE2FF" Margin="20,20,436,20">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0.273"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-1.795"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="24,20,24,20">
+            <StackPanel>
+                <StackPanel Height="360" Background="#FF454545" Margin="0,0,0,20">
+                    <StackPanel Height="56" Orientation="Horizontal" HorizontalAlignment="Left" Margin="20,0,0,0" RenderTransformOrigin="0.5,0.5" Width="475">
+                        <StackPanel.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </StackPanel.RenderTransform>
+                        <Label Content="Identitas Donatur" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Width="417"/>
+                        <Button x:Name="editBtn" Content="Edit" Click="Button_Click" Background="{x:Null}" Foreground="#FFF48080" Width="60" BorderBrush="{x:Null}"/>
+
+                    </StackPanel>
+                    <StackPanel Height="40" Orientation="Horizontal" Margin="24,0,0,0">
+                        <Label Content="Nama Donatur:" Foreground="White"/>
+                        <Label Content="Placeholder 1" Foreground="#FF848484"/>
+                    </StackPanel>
+                    <StackPanel Height="40" Orientation="Horizontal" Margin="24,0,0,0">
+                        <Label Content="Alamat Donatur:" Foreground="White"/>
+                        <Label Content="Placeholder 1" Foreground="#FF848484"/>
+                    </StackPanel>
+                    <StackPanel Height="40" Orientation="Horizontal" Margin="24,0,0,0">
+                        <Label Content="Nomor Telepon:" Foreground="White"/>
+                        <Label Content="Placeholder 1" Foreground="#FF848484"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Height="195" Background="#FF454545">
+                    <StackPanel Height="56" Orientation="Horizontal" HorizontalAlignment="Left" Margin="20,0,0,0" RenderTransformOrigin="0.5,0.5" Width="475">
+                        <StackPanel.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </StackPanel.RenderTransform>
+                        <Label Content="Status Konfirmasi Donasi" Foreground="White" FontSize="20" FontWeight="Bold"/>
+
+                    </StackPanel>
+                    <StackPanel Height="40" Orientation="Horizontal" Margin="24,0,0,0">
+                        <Label Content="Nama Yayasan:" Foreground="White"/>
+                        <Label Content="Placeholder 1" Foreground="#FF848484"/>
+                    </StackPanel>
+                    <StackPanel Height="40" Orientation="Horizontal" Margin="24,0,0,0">
+                        <Label Content="Nama Yayasan:" Foreground="White"/>
+                        <Label Content="Placeholder 1" Foreground="#FF848484"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,27">
+                <Button x:Name="logoutBtn" Content="Log Out" Margin="24,0,0,0" Width="160" Height="36" HorizontalAlignment="Left" FontFamily="Nirmala UI" Foreground="#FFFF6363" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" FontSize="14" VerticalAlignment="Center"/>
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Row="0
+              " Grid.Column="1">
+            <StackPanel Margin="0,0,10,0" VerticalAlignment="Center">
+                <Label Content="Rafly Zaki Ramadhan" FontSize="20" HorizontalAlignment="Right" Margin="0,0,24,0" Foreground="#FFE2E2E2"/>
+                <Label Content="Donatur" FontSize="14" HorizontalAlignment="Right" Margin="0,0,24,0" Foreground="Gray"/>
+            </StackPanel>
+
+        </Grid>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <StackPanel Margin="24,20,24,16" Height="566" Background="#FF454545">
+                <StackPanel Height="56" Orientation="Horizontal" RenderTransformOrigin="0.5,0.5" Width="773" HorizontalAlignment="Left" Margin="24,0,0,0">
+                    <StackPanel.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </StackPanel.RenderTransform>
+                    <Label Content="Daftar Permintaan" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Width="631"/>
+                </StackPanel>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+
+</Window>

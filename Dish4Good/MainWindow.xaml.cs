@@ -33,15 +33,24 @@ namespace Dish4Good
             // Anda dapat menambahkan logika autentikasi di sini.
             // Misalnya, memeriksa username dan password dengan data yang valid.
 
-            if (username == "user" && password == "password")
-            {
-                MessageBox.Show("Login berhasil!");
-                // Tambahkan logika untuk berpindah ke halaman utama atau menu aplikasi di sini.
-            }
-            else
-            {
-                MessageBox.Show("Login gagal. Periksa username dan password Anda.");
-            }
+            //if (username == "user" && password == "password")
+            //{
+            //    MessageBox.Show("Login berhasil!");
+            //    // Tambahkan logika untuk berpindah ke halaman utama atau menu aplikasi di sini.
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Login gagal. Periksa username dan password Anda.");
+            //}
+
+            // Membuat instance window Register.xaml
+            donaturDash donatur = new donaturDash();
+
+            // Menetapkan window Register.xaml sebagai halaman navigasi
+            donatur.Show();
+
+            // Menutup window saat ini (MainWindow.xaml) jika diperlukan
+            this.Close();
         }
 
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
@@ -49,6 +58,25 @@ namespace Dish4Good
             
         }
 
+        private void UsernameTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
+        }
+
+        private void myComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            donaturDash donatur = new donaturDash();
+
+            // Menetapkan window Register.xaml sebagai halaman navigasi
+            donatur.Show();
+
+            // Menutup window saat ini (MainWindow.xaml) jika diperlukan
+            this.Close();
+        }
     }
 }
