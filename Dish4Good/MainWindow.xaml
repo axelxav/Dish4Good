@@ -8,21 +8,51 @@
             <ColumnDefinition Width="0.4*"/>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="1">
-            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="387" Width="468">
-                <TextBlock Text="Login" FontSize="20" Margin="0 0 0 20"/>
-                <Label Content="User Type: "/>
-                <ComboBox Name="myComboBox" Width="200"/>
-                <Label Content="Username:"/>
-                <TextBox x:Name="UsernameTextBox" Width="200" Margin="0 5"/>
-                <Label Content="Password:" Margin="0 10"/>
-                <PasswordBox x:Name="PasswordBox" Width="200" Margin="0 5"/>
-                <Button Content="Login" Width="100" Margin="0 20" Click="LoginButton_Click"/>
-                <Button Content="Register" Width="100" Height="20" Margin="0 10" Background="White" BorderBrush="White" Click="RegisterButton_Click"/>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="430" Width="468" RenderTransformOrigin="0,0.5">
+
+                <Rectangle RenderTransformOrigin="0.5,0.5" Width="120" Height="40" HorizontalAlignment="Left" Margin="0,0,0,24" Fill="#FFCCE2FF">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleX="0.273"/>
+                            <RotateTransform/>
+                            <TranslateTransform X="-1.795"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+
+                <TextBlock Text="Sign In to Your Account" FontSize="24" FontFamily="Nirmala UI" FontWeight="Bold"/>
+                <Label Content="Welcome to Dish4Good dashboard sign in yourself first!" Foreground="#FF959595" BorderThickness="0,0,0,24"/>
+                <StackPanel Height="47" Orientation="Horizontal">
+                    <Label Content="User Type: " Height="32" Margin="0,0,64,0" Width="64" FontFamily="Nirmala UI" VerticalContentAlignment="Center"/>
+                    <ComboBox x:Name="myComboBox" Height="32" HorizontalAlignment="Left" Width="280" Padding="5,3,5,3" VerticalContentAlignment="Center" BorderBrush="#FFABABAB" Background="Black" SelectionChanged="myComboBox_SelectionChanged"/>
+                </StackPanel>
+                <StackPanel Height="47" Orientation="Horizontal">
+                    <Label Content="Username:" Height="32" Margin="0,0,64,0" Width="64" FontFamily="Nirmala UI" VerticalContentAlignment="Center"/>
+                    <TextBox x:Name="UsernameTextBox" Width="280" Height="32" Margin="0,0,64,0" Text="e.g. Rafly Zaki Xaverius" VerticalContentAlignment="Center" TextChanged="UsernameTextBox_TextChanged" Opacity="0.995" Foreground="#FF454545" SelectionBrush="#FF2B85FF"/>
+                </StackPanel>
+                <StackPanel Height="47" Orientation="Horizontal">
+                    <Label Content="Password:" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,64,0" Width="64" FontFamily="Nirmala UI"/>
+                    <PasswordBox x:Name="PasswordBox" Width="280" Height="32" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Height="47" Orientation="Horizontal">
+                    <Button Content="Login" 
+                            Height="32" 
+                            Width="172" 
+                            Margin="128,0,0,0" 
+                            Background="#FF2B85FF" 
+                            Foreground="#FFF6F6F6" 
+                            Click="LoginButton_Click"/>
+                </StackPanel>
+                <StackPanel Height="46" Orientation="Horizontal" Width="466" Margin="0,48,0,0">
+                    <Label Content="Don't Have an Account?" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Padding="0,0,0,0" VerticalContentAlignment="Center"/>
+                    <Button Content="Register" Click="RegisterButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2B85FF" FontFamily="Nirmala UI" HorizontalAlignment="Left" VerticalAlignment="Center" Height="32" Width="50" Padding="0,0,0,0" Margin="2,0,0,0"/>
+                </StackPanel>
 
             </StackPanel>
         </Grid>
-        <Grid Grid.Column="0">
-            <Rectangle Fill="Black"/>
+        <Grid Grid.Column="0" Background="#FF29405E">
+            <Rectangle Fill="Black" Margin="48,48,48,48"/>
         </Grid>
 
     </Grid>
