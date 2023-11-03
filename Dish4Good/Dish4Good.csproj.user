@@ -10,12 +10,18 @@
     <Compile Update="donaturDash.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RegWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="donaturDash.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

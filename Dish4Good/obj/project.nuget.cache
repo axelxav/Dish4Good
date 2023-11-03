@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Zmm4RIh+b9DOBGvehOPkXvw5tbZI3xBVrKnX+4CUyO7FxO88IUpf4jemwgltIh3Dm2FOf2RjdopYKf9KyBsSjQ==",
+  "dgSpecHash": "zZdPoWWUwCIF1xx6/NaGyslTaNo6//9m7ZRt8rABQamz+PXR8V7/1PjDPlpLZax7DMQ+840tlT21D8bGfEbv9A==",
   "success": true,
   "projectFilePath": "F:\\Dish4Good\\Dish4Good\\Dish4Good.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\LEGION\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\LEGION\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
+    "C:\\Users\\LEGION\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
