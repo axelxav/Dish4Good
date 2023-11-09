@@ -22,9 +22,8 @@ namespace Dish4Good
         public MainWindow()
         {
             InitializeComponent();
-            myComboBox.Items.Add("Pilihan 1");
-            myComboBox.Items.Add("Pilihan 2");
-            myComboBox.Items.Add("Pilihan 3");
+            myComboBox.Items.Add("Penerima");
+            myComboBox.Items.Add("Donatur");
         }
         private NpgsqlConnection conn;
         string connstring ="Host=localhost;Port=5432;Username=postgres;Password=1234;Database=dish4good";
