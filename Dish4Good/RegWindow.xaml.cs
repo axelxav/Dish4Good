@@ -24,8 +24,8 @@ namespace Dish4Good
         public RegWindow()
         {
             InitializeComponent();
-            myComboBox.Items.Add("Penerima");
-            myComboBox.Items.Add("Donatur");
+            myComboBox.Items.Add("penerima");
+            myComboBox.Items.Add("donatur");
             conn = new NpgsqlConnection(connstring);
         }
         private NpgsqlConnection conn;
